@@ -6,3 +6,6 @@ currentmonth = int(input("What is the month of the year today? Enter only month 
 birthyear = int(input("What year were you born? Write down the four numbers of birthyear "))
 number_of_moons = (2019-(birthyear+1))*12 + ((12 - birthmonth)+ (12 - currentmonth))
 print(str(number_of_moons)+ " Full Moons!")
+#This calculator is called Many Moons. The calculator returns an approximate cnumber of how many full moons (excluding blue moons, the 13th moon certain years experienve) that have risen in a persons life time!
+#I used Python 3.7.9 to create Many Moons
+
